@@ -1,10 +1,9 @@
-
-
 body {
 	margin: 0;
 	font-family: arial;
 }
 
+/* HEADER */
 header {
 	height: 200px;
 	text-align: center;
@@ -16,19 +15,12 @@ header {
 	padding: 0px 15px 0px 5px;
 }
 
-@media screen and(max-width: 99999999999999999999px) {
-	header {
-		background: green;
-	}
-}
-
 header h1 {
 	font-family: calibri;
 	font-size: 30pt;
 	margin: 0px;
 	padding: 50px 0px 25px 0px;
 }
-
 
 nav ul{
 	margin: 0;
@@ -47,8 +39,29 @@ nav ul li a {
 	text-decoration-line: none;
 }
 
+/*RESPONSIVE: HEADER */
+@media screen and (max-width: 800px) {
+	header {
+		height:100px;
+	}
+	header h1 {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 675px) {
+	header {
+		height:50px;
+	}
+	header h1 {
+		display: inline-block;
+		padding: 5px;
+		font-size: 20pt;
+	}
+}
+
+/* MAIN BODY */
 .bulk_section{
-	background-image: url("portofino-restaurants.jpg");
 
 }
 
@@ -77,8 +90,30 @@ nav ul li a {
 	clear:both;
 }
 
-footer {
+/*RESPONSIVE: MAIN BODY */
+@media screen and (max-width: 800px) {
+	.leftcol {
+		display:none;
+	}
+	.middlecol {
+		width: 78%;
+	}
+	.rightcol {
+		width:12%;
+	}
+}
 
+@media screen and (max-width: 675px) {
+	.rightcol {
+		display: none;
+	}
+	.middlecol {
+		width: 100%;
+	}
+}
+
+/* FOOTER */
+footer {
 	background-image: url("images/portofino-restaurants.jpg");
 	background-size:100%;
 	background-position: center;
