@@ -1,0 +1,33 @@
+body {
+	background: #999;
+	font-family: arial;
+	}
+
+h1, h2, h3 {
+	color: navy;
+}
+
+a {
+	color: green;
+}
+
+p {
+	color: white;
+	background-color: #555;
+	padding: 5px 10px;
+}
+
+.remark {
+	font-family: times;
+	background: #888;
+	color: red;
+}
+
+#superspecial {	
+	background: navy;
+	}
+
+#nav {
+	background: yellow;
+	padding: 10px 20px;
+}
