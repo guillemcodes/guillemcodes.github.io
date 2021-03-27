@@ -2,30 +2,32 @@
 <html>
 
 <head>
-	<title>Guillem's Blog</title>
+	<title>CSS Layouts</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
 <body>
-	<h1>Hello world!</h1>
 
-		<h3><em>Navigation</em></h3>
-		<ul id="nav">
-			<li>Home</li>
-			<li><a href="page1.html">Page 1</a></li>
-			<li><a href="page2.html">Page 2</a></li>
-		</ul>
-	
-	<p>Some fake content. Sites love content.</p>
-	<p class="remark">Content, but different. This paragraph is special and has a class "remark". You can have various objects within a class.</p>
-	<p id='superspecial'>Even more special. Only 1 ID per page (typical example: navigation, only 1 per page".</p>
+	<header>
+		<nav>
+			<h1>Guillem's Blog</h1>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Archive</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">External</a></li>
+			</ul>
+		</nav>
+	</header>
 
-	<p>
-		<a href="https://www.google.com"><strong>Go to Google</strong></a>
-	</p>
+	<div class="row">
+		<div class="leftcol">Col1</div>
+		<div class="middlecol">Col2</div>
+		<div class="rightcol">Col3</div>
+	</div>
 
-	<a href="https://en.wikipedia.org/wiki/Cat"><img src="index.jpg"></a>
-
+	<footer>Footer content. Creative commons.</footer>
 
 </body>
 
