@@ -4,9 +4,13 @@ body {
 }
 
 header {
+	height: 200px;
 	text-align: center;
 	background: navy;
 	color: white;
+	background-size:100%;
+	background-position: center;
+	background-image: url("images/portofino-restaurants.jpg");
 	padding: 0px 15px 0px 5px;
 }
 
@@ -16,6 +20,7 @@ header h1 {
 	margin: 0px;
 	padding: 50px 0px 25px 0px;
 }
+
 
 nav ul{
 	margin: 0;
@@ -34,9 +39,11 @@ nav ul li a {
 	text-decoration-line: none;
 }
 
-.row:after {
-	clear:both;
+.bulk_section{
+	background-image: url("portofino-restaurants.jpg");
+
 }
+
 .leftcol {
 	float: left;
 	margin: 1%;
@@ -58,7 +65,12 @@ nav ul li a {
 	width: 20%;
 }
 
+.bulk_section:after {
+	clear:both;
+}
+
 footer {
+	padding:50px;
 	clear:both;
 	text-align: center;
 	font-style: italic;
