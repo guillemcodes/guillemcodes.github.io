@@ -2,24 +2,14 @@
 <html>
 
 <head>
-	<title>My Test Site</title>
+	<title>Nuclear Future</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
 
 	<header>
-		<nav>
-			<h1>Guillem's Blog</h1>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Archive</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">External</a></li>
-			</ul>
-			<div id="unroll_button"></div>
-		</nav>
+		 <div w3-include-html="content.html"></div>
 	</header>
 
 	<section class="top_row">
@@ -30,12 +20,14 @@
 	</section>
 
 	<section class="bulk_section">
-		<div class="leftcol"><h2>Column 1</h2></div>
+
 		<div class="middlecol">
 			<h2>Column 2</h2>
 			<p>Here goes the main context. If I make it long enough, it should roll around. To prove it, I am writing a bunch of extra text with no further meaning other than to display the aforementioned point.</p>
 			</div>
+
 		<div class="rightcol"><h2>Column 3</h2></div>
+
 	</section>
 
 	<footer><h4>Footer content</h4></footer>

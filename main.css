@@ -90,7 +90,7 @@ nav ul li a {
 }
 
 .leftcol {
-	/*display:none; /*currently not used*/
+	display:none; /*currently not used*/
 	float: left;
 	margin: 1%;
 	padding: .5% 1%;
