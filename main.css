@@ -111,7 +111,8 @@ nav ul li a {
 	margin: 1%;
 	padding: .5% .5%;
 	width: 25%;
-	background-color: pink;
+	background-color: white;
+	text-align: center;
 }
 
 .bulk_section:after {
