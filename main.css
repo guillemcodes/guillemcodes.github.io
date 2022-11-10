@@ -44,35 +44,6 @@ nav ul li a {
 	font-size: 20pt;
 }
 
-/*RESPONSIVE: HEADER */
-@media screen and (max-width: 800px) {
-	header {
-		height:100px;
-	}
-	header h1 {
-		display: inline-block;
-		padding: 25px 0px 25px 0px;
-	}
-}
-
-@media screen and (max-width: 675px) {
-	header {
-		height:50px;
-	}
-	header h1 {
-		padding: 5px;
-		font-size: 20pt;
-		width: 75%;
-	}
-	nav ul{
-		display:none;
-	}
-
-	nav #unroll_button {
-		display:inline-block;
-	}
-}
-
 /* MAIN BODY */
 
 .top_row {
@@ -90,6 +61,7 @@ nav ul li a {
 .bulk_section{
 	justify-content: center;
 }
+
 
 .leftcol {
 	display:none; /*currently not used*/
@@ -120,8 +92,27 @@ nav ul li a {
 	clear:both;
 }
 
-/*RESPONSIVE: MAIN BODY */
-@media screen and (max-width: 800px) {
+/* FOOTER */
+
+footer {
+	height: 10px;
+	padding:50px;	
+	clear:both;
+	text-align: center;
+	font-style: italic;
+}
+
+/* ======================== RESPONSIVE DESIGN ======================== */
+
+@media screen and (max-width: 800px) { /* medium size */
+	header {
+		height:100px;
+	}
+	header h1 {
+		
+		padding: 25px 0px 25px 0px;
+	}
+
 	.leftcol {
 		display:none;
 	}
@@ -133,7 +124,25 @@ nav ul li a {
 	}
 }
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 675px) {  /* small size */
+	header {
+		height:50px;
+	}
+	header h1 {
+		padding: 5px;
+		font-size: 20pt;
+		width: 75%;
+	}
+	nav ul{
+		display:none;
+	}
+
+	nav #unroll_button {
+		display:inline-block;
+	}
+
 	.top_row {
 		margin: 0px;
 	}
@@ -147,11 +156,3 @@ nav ul li a {
 	}
 }
 
-/* FOOTER */
-footer {
-	height: 10px;
-	padding:50px;	
-	clear:both;
-	text-align: center;
-	font-style: italic;
-}
