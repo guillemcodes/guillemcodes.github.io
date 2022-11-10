@@ -16,7 +16,7 @@ header {
 	padding: 0px 15px 0px 5px;
 }
 
-header h1 {
+header #header_title {
 	font-family: calibri;
 	font-size: 30pt;
 	margin: 0px;
@@ -108,7 +108,7 @@ footer {
 	header {
 		height:100px;
 	}
-	header h1 {
+	header #header_title {
 		display: inline-block;
 		padding: 25px 0px 25px 0px;
 	}
