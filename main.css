@@ -18,7 +18,7 @@ header {
 
 header #header_title {
 	font-family: arial;
-	font-size: 30pt;
+	font-size: 25pt;
 	margin: 0px;
 	padding: 25px 0px 25px 0px;
 }
@@ -51,7 +51,7 @@ nav #nav_right {
 nav ul li a {
 	color: gold;
 	text-decoration-line: none;
-	font-size: 20pt;
+	font-size: 15pt;
 }
 
 /* MAIN BODY */
@@ -111,4 +111,3 @@ footer {
 	text-align: center;
 	font-style: italic;
 }
-
