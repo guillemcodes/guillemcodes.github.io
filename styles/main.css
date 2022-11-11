@@ -5,6 +5,7 @@ body {
 }
 
 /* HEADER */
+
 header {
 	height: 150px;
 	text-align: center;
@@ -104,10 +105,27 @@ nav ul li a {
 
 /* FOOTER */
 
+
 footer {
 	height: 10px;
-	padding:50px;	
+	
 	clear:both;
 	text-align: center;
 	font-style: italic;
+}
+
+footer {
+	height: 100px;
+	padding:50px;	
+	text-align: center;
+	background: black;
+	color: white;
+	background-size:100%;
+	padding: 0px 15px 0px 5px;
+}
+
+footer h4 {
+	font-family: arial;
+	margin: 0px;
+	padding: 25px 0px 25px 0px;
 }
