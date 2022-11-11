@@ -127,6 +127,16 @@ footer {
 		display: inline-block;
 	}
 
+	nav #nav_left {
+	padding: 0px 0px 0x 0px;
+	display: inline-block;
+	}
+
+	nav #nav_right {
+		padding: 0px 0px 0px 0px;
+		display: inline-block;
+	}
+
 	.leftcol {
 		display:none;
 	}
