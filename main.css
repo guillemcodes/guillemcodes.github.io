@@ -7,7 +7,7 @@ body {
 /* HEADER */
 header {
 	height: 200px;
-	text-align: center;
+	/*text-align: center;*/
 	background: navy;
 	color: white;
 	background-size:100%;
