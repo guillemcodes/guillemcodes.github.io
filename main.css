@@ -38,6 +38,10 @@ nav ul li {
 	padding: 3px 12px;
 }
 
+nav #nav_right {
+	text-align: right;
+}
+
 nav ul li a {
 	color: gold;
 	text-decoration-line: none;
