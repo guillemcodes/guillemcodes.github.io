@@ -1,0 +1,63 @@
+	<!doctype html>
+<html>
+
+<head>
+	<title>&#9883 Nuclear Future</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<header>
+
+		<h1 id="header_title">Nuclear Future</h1>
+
+		<nav>
+
+			<div id="nav_left">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Archive</a></li>
+				</ul>
+			</div>
+
+			<div id="nav_right"></div>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/guillem-sr/"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+			</div>
+
+			<div id="unroll_button">
+				<i class="fa fa-twitter"></i>
+			</div>
+
+		</nav>
+
+	</header>
+
+	<section class="bulk_section">
+
+		<div class="middlecol">
+
+			<h2>Archive</h2>
+			<p>Archivey stuff</p>
+		
+		</div>
+
+
+		<div class="rightcol">
+
+			<h2>Rightcol</h2>
+			
+
+		</div>
+
+	</section>
+
+	<footer><h4>Footer content</h4></footer>
+
+</body>
+
+</html>
