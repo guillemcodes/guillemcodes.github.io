@@ -38,6 +38,10 @@ nav ul li {
 	padding: 3px 12px;
 }
 
+nav #nav_left {
+	text-align: left;
+}
+
 nav #nav_right {
 	text-align: right;
 }
